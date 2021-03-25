@@ -216,10 +216,11 @@ a {
   display: -ms-flex;
   display: -o-flex;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .form__1 {
-  position: absolute;
+  z-index: 5;
   height: 100%;
   width: 787px;
   display: inline-block;
@@ -321,11 +322,12 @@ a {
 }
 
 .form-images {
-  margin-right: 0;
+  right: 0;
   margin-left: auto;
   max-height: 430px;
   width: auto;
   background-repeat: no-repeat;
+  position: absolute;
 }
 
 .line {
